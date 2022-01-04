@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TCC</title>
+    
+    <!--
+    <style>
+      body{
+        background-color: #54abfb;
+        display: grid;
+        place-items: center;
+      }
+      .drob input
+      {
+        z-index: 99;
+        position: relative;
+      }
+      .drob{
+        margin-top: 100px;
+        position: relative;
+        height: 200px;
+        width: 200px;
+        background: #54abfb;
+        opacity: 0.8;
+        border: 2px solid #3d93ff;
+        border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+        }
+        .drob::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #318cfe;
+        border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+        box-shadow: -20px 30px 16px #1b6cfe, -40px 60px 32px #1b6cfb, inset -6px 6px 10px #1b6cfb, inset 2px 6px 10px #1a74e5, inset 20px -20px 22px white, inset 40px -40px 44px #a8ceff;
+        }
+  .drob::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: #e6fdfb;
+    border-radius: 44% 56% 46% 54% / 36% 50% 50% 64%;
+    left: 130px;
+    top: 40px;
+    opacity: 0.8;
+    box-shadow: 16px 40px 0 -10px white;
+  }
+    </style> -->
+</head>
+
+<body>
+<!--
+<div class="drob">
+  
+  <form action="gg.com" method="get" accept-charset="utf-8">
+    <input type="text" name="" id="in1" value="" />
+    <input type="text" name="" id="in2" value="" />
+    
+  </form>
+</div>-->
+<!--
+
+<html><head></head><body>
+<form action="https:test.com" onsubmit="com()">
+ادخل كلمة السر
+<input id="i1"> <br>
+<input type="submit" value="التالي">
+</form>
+<script type="text/javascript">
+function com() {
+var t=document.getElementById("i1");
+var b=false;
+for (var i=0; i<t.value.length; i++)
+if(t.value [ i ]== ".")
+var b=true;
+if(b==false)
+
+{alert ("كلمة السر لٱ تحوي نقطة ");
+return false;}
+else return true;}
+</script>
+
+</body>
+</html>
+
+
+
+ 
+  <ol id="ol">  
+       <li>
+         1</li><li>2</li><li>3</li>
+  </ol>
+  <script>
+var ol = document.getElementById("ol");
+var x = ol.childNodes;
+x[1].innerHTML = "hhgghh";
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <p id="p1" style="font-size: 20px">
+    Hello
+  </p>
+  <button id="b1" onclick="plus()">
+    ++++++
+  </button>
+  <button id="b2" onclick="min()">
+  ------
+  </button>
+  /////////////////////////
+  <script>
+  var x = document.getElementById("p1");
+    function plus(){
+      var s = x.style.fontSize;
+      s = parseInt(s);
+      s += 2;
+    x.style.fontSize = String(s) + "px";
+    }
+    
+    function min(){
+    var s = x.style.fontSize;
+    s = parseInt(s);
+    s -= 2;
+    x.style.fontSize = String(s) + "px";
+    }
+  </script>
+  
+  
+  
+  
+  <input type="text" id="in1"/>
+  <input type="text" id="in2"/>
+  
+  <button id="b1" onclick="calc()">المجموع</button>
+  
+  <div id="d1" style="background-color: gray ; height: 20px">
+    
+  </div>
+  
+
+
+ <script>
+  let in1 = document.getElementById("in1");
+let in2 = document.getElementById("in2");
+let d1 = document.getElementById("d1");
+
+let v1 = in1.value;
+let v2 = in2.value;
+
+function calc(){
+  d1.innerHTML = (v1 + v2);
+}
+
+ </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <script>
+  
+  
+var pro1 = prompt("Enter the link");
+var b = document.getElementById("b1");
+var a = document.createElement("a");
+var in1 = document.createTextNode(pro1);
+a.href = "https://www.Google.com";
+a.appendChild(in1);
+b.appendChild(a);
+  a.id = "c1";
+  
+var pro2 = prompt("Enter the background-color");
+b.style.backgroundColor = pro2;
+
+var pro3 = prompt("Enter the font-size");
+    b.style.fontSize = pro3;
+    
+var pro4 = prompt("Enter the color");
+    c1.style.color = pro4;
+    
+var pro5 = prompt("Enter the margin");
+    b.style.margin = pro5;
+  </script>
+  
+  
+
+  
+  
+  -->
+  
+  
+  
+  <!--
+  
+  <div class="calc">
+    <div class="head">
+      <button id="b0">Calculator</button>
+    </div>
+    <div class="out">
+      75000
+    </div>
+    <div class="btn" id="ln1">
+      <button>AC</button>
+      <button>C</button>
+      <button>+/-</button>
+      <button>%</button>
+    </div>
+    <div class="btn" id="ln2">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>÷</button>
+    </div>
+    <div class="btn" id="ln3">
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>×</button>
+    </div>
+    <div class="btn" id="ln4">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+    </div>
+    <div class="btn" id="ln5">
+      <button>0</button>
+      <button>,</button>
+      <button>=</button>
+      <button>+</button>
+    </div>
+  </div>
+  
+  <style>
+  *{
+    margin: 0;
+  }
+    .calc{
+      width: 100%;
+      height: 100vh;
+      background-color: #111;
+    }
+    .head{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      height: 90px;
+      background-color: #111;
+    }
+    #b0{
+      width: 250px;
+      height: 50px;
+      background-color: blue;
+      border-radius: 30px;
+      color: whitesmoke;
+      font-size: 40px;
+      margin-left:30px;
+      border: none;
+    }
+    .out{
+      width: 100%;
+      height: 400px;
+      background-color: #1b1b1b;
+      display: flex;
+      align-items: center;
+      font-size:10em;
+      direction: rtl;
+      color: #aaa;
+    }
+    .btn{
+      width: 100%;
+      height: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .btn button{
+      width: 170px;
+      height: 170px;
+      border:none;
+      border-radius: 50%;
+      color: whitesmoke;
+      font-size: 70px;
+      font-weight: 900;
+      background-color: #111;
+    }
+    #ln1 button{
+      background-color: #1b1b1b;
+    }
+    #ln2 button:nth-child(4){
+      background-color: #1b1b1b;
+    }
+    #ln3 button:nth-child(4){
+    background-color: #1b1b1b;
+    }
+    #ln4 button:nth-child(4){
+    background-color: #1b1b1b;
+    }
+    #ln5 button:nth-child(4){
+    background-color: #1b1b1b;
+    }
+    
+    
+  </style>
+  
+  
+  
+  
+  
+  -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="heart" id="d1">
+    <button onclick="clk()">اكبس هوون ولااااك</button></button>
+  </div>
+ 
+  <script>
+  var x = document.getElementById("d1");
+    function clk() {
+x.style.animationName = "hello";
+x.style.animationDuration = "1ms";
+x.style.animationTimingFunction = "linear";
+x.style.animationIterationCount = "infinite";
+    }
+  </script>
+  <style>
+    .heart{
+      position: relative;
+      margin: 200px auto;
+      width: 200px;
+      height: 290px;
+      background: black;
+      transform: rotate(45deg);
+     /* animation: hello 4s linear infinite;*/
+      border-radius: 200px 200px 0 0;
+    }
+    
+    .heart::before{
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 290px;
+      background: black;
+      transform: rotate(-90deg);
+      border-radius: 200px 200px 0 0;
+      left: -45px;
+      bottom: -45px;
+    }
+    
+    @keyframes hello{
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(360deg);
+    }
+  </style>
+</body>
+
+</html>
